@@ -1,56 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>paytm_clone</title>
     <style>
-        .img_1{
+        .img_1 {
             padding-left: 80px;
             padding-top: 40px;
         }
-        nav ul{
-      list-style: none;
-      position: relative;
-      padding-left: 400px;bottom: 55px;
-      word-spacing: px
-      }
-      nav ul li a {
-      text-decoration: none;
-      color: rgb(0, 0, 0);
-      float: left;
-      padding: 8px;
-      font-size:27px;
-      margin-inline: 21px;
-      padding-top: 11px;
-      }
-      nav {
-      box-shadow: 0 2px 1px 0 rgba(0,0,0,.2);
-      }
-      .img_2{
-        padding-left:px;
-      }
-
+        .block_1{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 1px 0 rgba(0,0,0,.2);
+        }
+        ul{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            float: left;
+            font-size: 3rem;
+        }
+        .li{
+            padding: 2rem;
+            list-style: none;
+            
+        }
     </style>
 </head>
-<body>
-    <nav class="block_1">
-    <div>
-        <img  class = "img_1" src="logo_1.jpg" height="26px" width="235px" alt="logo"></img>
-    </div>
-        <ul>
-            <li><a href="#"><b>Paytm for Consumer</a></li>
-            <li><a href="#">Paytm For Business</a></li>
-            <li><a href="#">Investor Realtions</a></li>
-            <li><a href="#">Company</a></li>
-            <li><a href="#">Career</a></li>
-            <button class="bt_1">
-                Sign In</b>
-            </button>
-        </ul>
-    </nav>
-    <img class="img_2" src="logo_2.jpg" alt="paytm logo">
-    <br><br><br><br><br><br><br><br>
-    
 
+<body>
+    <div class="block_1">
+        <div>
+            <img class="img_1" src="logo_1.jpg" height="26px" width="235px" alt="logo"></img>
+        </div>
+        <nav>
+            <ul>
+                <li class="li"><a href="#">Paytm for Consumer</a></li>
+                <li class="li"><a href="#">Paytm For Business</a></li>
+                <li class="li"><a href="#">Investor Realtions</a></li>
+                <li class="li"><a href="#">Company</a></li>
+                <li class="li"><a href="#">Career</a></li>
+                <li class="li">
+                    <button class="bt_1" style="font-size: xx-large;">
+                        Sign In
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <div>
+            <img src="logo_2.jpg" alt="">
+        </div>   
+    </div>
 </body>
+
 </html>
